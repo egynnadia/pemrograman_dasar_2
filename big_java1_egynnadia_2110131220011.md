@@ -37,7 +37,7 @@ Di jantung komputer terletak pusatnyaunit pemrosesan (CPU) (lihat Gambar 1). Bag
 <p align="justify">
 Ada dua macam penyimpanan. Penyimpanan utama,atau memori, dibuat dari sirkuit elektronik yang dapat menyimpan data, asalkan:disuplai dengan tenaga listrik. Penyimpanan sekunder, biasanya hard disk (lihat Gambar 2)atau solid-state drive, menyediakan penyimpanan yang lebih lambat dan lebih murah yang bertahan tanpa listrik. Sebuah hard disk terdiri dari piringan berputar, yang dilapisi dengan magnet 
 
-![figure 2]()
+![figure 2](F2.png)
 
 <p align="justify">
 bahan. Solid-state drive menggunakan komponen elektronik yang dapat menyimpan informasitanpa daya, dan tanpa bagian yang bergerak.
@@ -51,7 +51,7 @@ Beberapa komputer adalah unit mandiri, sedangkan yang lain saling berhubungan me
 <p align="justify">
 Gambar 3 memberikan gambaran skematis arsitektur komputer pribadi. Instruksi dan data program (seperti teks, angka, audio, atau video) berada di sekunder penyimpanan atau di tempat lain di jaringan. Ketika sebuah program dimulai, instruksinyadibawa ke memori, di mana CPU dapat membacanya. CPU membaca dan mengeksekusi satu instruksi pada suatu waktu. Seperti yang diarahkan oleh instruksi ini, CPU membacadata, memodifikasinya, dan menulisnya kembali ke memori atau penyimpanan sekunder. Beberapa programinstruksi akan menyebabkan CPU menempatkan titik-titik pada layar tampilan atau printer atau kegetaran speakernya. Karena tindakan ini terjadi berkali-kali dan dengan kecepatan tinggi,pengguna manusia akan melihat gambar dan suara. Beberapa instruksi program membaca penggunamasukan dari keyboard, mouse, sensor sentuh, atau mikrofon. Analisis programsifat input ini dan kemudian mengeksekusi instruksi yang sesuai berikutnya.
 
-![figure 3]()
+![figure 3](F3.png)
 
 <p align="justify">
 Ketika komputer pertama kali ditemukan pada tahun 1940-an, komputer memenuhi seluruh ruangan.  Foto di bawah menunjukkan ENIAC (integrator numerik elektronik dan komputer), selesai pada tahun 1946 di University of Pennsylvania.  ENIAC digunakan oleh militer untuk menghitung lintasan proyektil.  Saat ini, fasilitas komputasi mesin pencari, toko internet, dan jejaring sosial memenuhi gedung-gedung besar yang disebut pusat data.  Di ujung lain spektrum, komputer ada di sekitar kita.  Ponsel Anda memiliki komputer di dalamnya, seperti halnya banyak kartu kredit dan kartu tarif untuk angkutan umum.  Sebuah mobil modern memiliki beberapa komputer––untuk mengontrol mesin, rem, lampu, dan radio.
@@ -59,7 +59,7 @@ Ketika komputer pertama kali ditemukan pada tahun 1940-an, komputer memenuhi sel
 <p align="justify">
 Munculnya komputasi di mana-mana berubah banyak aspek dari kami hidup.  Pabrik digunakan mempekerjakan orang untuk lakukan perakitan berulang tugas-tugas yang hari ini dilakukan oleh komputer- robot yang dikendalikan, operasi dimakan oleh segelintir orang siapa yang tahu caranya bekerja dengan komputer.  Buku, musik, dan film saat ini sering dikonsumsi di komputer, dan komputer hampir selalu terlibat dalam produksi mereka.  Buku yang sedang Anda baca sekarang tidak mungkin ditulis tanpa komputer.
 
-![png 1]()
+![png 1](1png.png)
 
 <p align="justify">
 Mengetahui tentang komputer dan cara memprogramnya telah menjadi keterampilan penting dalam banyak karier.  Insinyur merancang mobil yang dikendalikan komputer dan peralatan medis yang menyelamatkan nyawa.  Ilmuwan komputer mengembangkan program yang membantu orang berkumpul untuk mendukung tujuan sosial.  Misalnya, para aktivis menggunakan jejaring sosial untuk berbagi video yang menunjukkan pelecehan oleh rezim yang represif, dan informasi ini berperan penting dalam mengubah opini publik.
@@ -67,19 +67,19 @@ Mengetahui tentang komputer dan cara memprogramnya telah menjadi keterampilan pe
 <p align="justify">
 Ketika komputer, besar dan kecil, menjadi semakin tertanam dalam kehidupan kita sehari-hari, semakin penting bagi setiap orang untuk memahami cara kerjanya, dan cara bekerja dengannya.  Saat Anda menggunakan buku ini untuk mempelajari cara memprogram komputer, Anda akan mengembangkan pemahaman yang baik tentang dasar-dasar komputasi yang akan membuat Anda menjadi warga negara yang lebih berpengetahuan dan, mungkin, seorang profesional komputasi.
 
-![png 2]()
+![png 2](2png.png)
 
 # 1.3 Bahasa Pemrograman Java
 
 <p align="justify">
 Untuk menulis program komputer, Anda perlu memberikan urutan instruksi yang dapat dieksekusi oleh CPU. Sebuah program komputer terdiri dari sejumlah besar program instruksi CPU sederhana, dan membosankan juga rawan untuk kesalahan untuk menentukannya satu persatu. Karena alasan itu, bahasa pemrograman tingkat tinggi telah dibuat. Dalam bahasa tingkat tinggi, Anda menentukan tindakan yang harus dilakukan programnya. Penyusun menerjemahkan instruksi tingkat tinggi ke dalam instruksi yang lebih rinci (disebut kode mesin) yang dibutuhkan oleh CPU. Banyak bahasa pemrograman yang berbeda telah dirancang untuk tujuan yang berbeda.
 
-![png 3]()
+![png 3](3png.png)
 
 <p align="justify">
 Pada tahun 1991, sebuah kelompok yang dipimpin oleh James Gosling dan Patrick Naughton di Sun Microsystems merancang sebuah bahasa pemrograman, berkode nama “Green”, untuk kegunaan di perangkat konsumen, seperti “set-top” televisi cerdas. Bahasanya dirancang untuk sederhana, aman, dan dapat digunakan oleh berbagai tipe prosesor yang berbeda. Tidak ada pelanggan yang pernah ditemukan untuk teknologi ini.
 
-![png 4]()
+![png 4](4png.png)
 
 <p align="justify">
 Gosling menceritakan pada tahun 1994 tim menyadari “Kita bisa menulis browser yang sangat keren. Itu adalah salah satu dari sedikit hal dalam arus utama klien/server yang membutuhkan beberapa hal aneh yang telah kami lakukan: arsitektur netral, waktu nyata, andal, aman.” Java diperkenalkan kepada orang banyak yang antusias di pameran SunWorld pada tahun 1995, bersama dengan browser yang menjalankan applet—kode Java yang dapat ditemukan di mana saja di Internet. Gambar di sebelah kanan menunjukkan contoh khas applet.
@@ -87,7 +87,7 @@ Gosling menceritakan pada tahun 1994 tim menyadari “Kita bisa menulis browser 
 <p align="justify">
 Sejak saat itu, Java telah berkembang dengan kecepatan yang fenomenal. Programmer telah menggunakan bahasa ini karena lebih mudah digunakan daripada saingan terdekatnya, C++. Selain itu, Java memiliki perpustakaan yang kaya yang memungkinkan untuk menulis program portabel yang dapat melewati sistem operasi berpemilik—fitur yang sangat dicari oleh mereka yang ingin menjadi independen dari sistem berpemilik tersebut dan diperjuangkan dengan sengit oleh vendor mereka.
 
-![png 5]()
+![png 5](5png.png)
 
 <p align="justify">
 Karena Java dirancang untuk internet, ia mempunyai dua atrbut yang membuatnya sangat cocok untuk pemula: keamanan dan portabilitas.
@@ -124,7 +124,7 @@ Banyak siswa menemukan bahwa alat yang mereka butuhkan sebagai pemrogram sangat 
 <p align="justify">
 Sistem komputer sangat berbeda dalam hal ini. Pada banyak komputer terdapat lingkungan pengembangan terintegrasi di mana Anda dapat menulis dan menguji program Anda
 
-![figure 4]()
+![figure 4](F4.png)
 
 <p align="justify">
 Di komputer Anda pertama kali meluncurkan editor, sebuah program yang berfungsi seperti pengolah kata, di mana Anda dapat memasukkan instruksi Java Anda; Anda kemudian membuka jendela konsol dan ketik perintah untuk menjalankan program Anda. Anda perlu mencari tahu bagaimana memulai dengan lingkungan Anda.
@@ -153,7 +153,7 @@ Buat file baru dan beri namaHelloPrinter.java, menggunakan langkah-langkah yang 
 <p align="justify">
 Saat Anda menulis program ini, perhatikan baik-baik berbagai simbol, dan ingatlah bahwa Java sensitif terhadap huruf besar-kecil. Anda harus memasukkan huruf besar dan kecil persis seperti yang muncul dalam daftar program. Anda tidak dapat mengetikMAIN atauPrintLn. Jika Anda tidak hati-hati, Anda akan mengalami masalah—lihat Kesalahan Umum 1.2.
 
-![figure 5]()
+![figure 5](F5.png)
 
 **Langkah 3** Jalankan programnya.
 
@@ -172,12 +172,12 @@ Untuk menjalankan program Anda, kompiler Java menerjemahkan **file sumber** Anda
 <p align="justify">
 Sebagai seorang programmer, Anda menulis program, mencobanya, dan memperbaikinya. Anda menyimpan program Anda dalam file. File disimpan dalam **folder** atau **direktori**. Sebuah folder dapat berisi
 
-![figure 6]()
+![figure 6](F6.png)
 
 <p align="justify">
 file serta folder lain, yang dengan sendirinya dapat berisi lebih banyak file dan folder  (lihat Gambar 7). Hirarki ini bisa sangat besar, dan Anda tidak perlu khawatir dengan semua cabangnya. Namun, Anda harus membuat folder untuk mengatur pekerjaan Anda. Sebaiknya buat folder terpisah untuk pro-tugas mata kuliah tata bahasa. Di dalam folder itu, buat folder terpisah untuk setiap program.Beberapa lingkungan pemrograman menempatkan program Anda ke lokasi default jika Anda tidak menentukan folder sendiri. Dalam hal ini, Anda perlu mencari tahu di mana file-file itu berada.Pastikan Anda memahami di mana file Anda berada dalam hierarki folder. Informasi ini penting ketika Anda mengirimkan file untuk penilaian, danuntukmembuat salinan cadangan (lihat Tip Pemrograman 1.1).
 
-![figure 7]()
+![figure 7](F7.png)
 
 ### Salinan Cadangan
 
@@ -196,7 +196,7 @@ Berikut adalah beberapa petunjuk yang perlu diingat:
 <p align="justify">
 Pada bagian ini, kita akan menganalisis program Java pertama secara rinci. Di sini adalah kode sumber.
 
-![png 6]()
+![png 6](6png.png)
 
 Garis
 
@@ -279,7 +279,7 @@ Anda juga dapat mencetak nilai numerik. Misalnya pernyataan
 
 mengevaluasi ekspresi 3 + 4 dan menampilkan angka 7.
 
-![png 7]()
+![png 7](7png.png)
 
 <p align="justify">
 Metode System.out.println mencetak string atau angka dan kemudian memulai baris baru. Misalnya, urutan pernyataan
@@ -412,7 +412,7 @@ Pertimbangkan masalah investasi berikut:
 
 Anda memasukkan $10.000 ke dalam rekening bank yang menghasilkan bunga 5 persen per tahun. Berapa banyak tahun yang diperlukan agar saldo akun menjadi dua kali lipat dari aslinya? Bisakah Anda memecahkan masalah ini dengan tangan? Tentu, Anda bisa. Anda mengetahui keseimbangannya sebagai berikut:
 
-![png 8]()
+![png 8](8png.png)
 
 Anda terus berjalan sampai saldo setidaknya $20.000. Kemudian angka terakhir di tahun inikolom adalah jawabannya.
 
@@ -421,7 +421,7 @@ Tentu saja, melakukan perhitungan ini sangat membosankan bagi Anda atau adik lak
 
 Setel tahun ke 0, saldo ke 10.000.
 
-![png 9]()
+![png 9](9png.png)
 
 Ketika saldo kurang dari $20,000
 
@@ -432,7 +432,7 @@ Tetapkan bunga ke saldo x 0,05 (yaitu, bunga 5 persen).
 Tambahkan bunga ke saldo
 
 
-![png 10]()
+![png 10](10png.png)
 
 Laporan tahun sebagai jawabannya.
 <p align="justify">
